@@ -6,8 +6,6 @@ library identifier: 'jenkins-shared-library@main',
       $class: 'GitSCMSource',
       remote: 'https://github.com/suman2826/jenkins-shared-libs.git'
 ])
-
-welcomeJob
 jenkinsForJava
 
 // pipeline {
