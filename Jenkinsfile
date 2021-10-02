@@ -8,6 +8,7 @@ library identifier: 'jenkins-shared-library@main',
 ])
 
 welcomeJob
+jenkinsForJava
 
 // pipeline {
 //        agent any
