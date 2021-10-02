@@ -1,7 +1,2 @@
-
-@library('jenkins-shared-library') _
-pipeline{
-    stage{
-        welcomeJob 'hello'
-    }
-}
+@Library(''jenkins-shared-library') _
+jenkinsForJava 'https://github.com/iamvickyav/spring-boot-data-H2-embedded.git'
