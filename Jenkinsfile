@@ -4,7 +4,7 @@
 library identifier: 'jenkins-shared-library@main',
     retriever: modernSCM([
       $class: 'GitSCMSource',
-      remote: 'https://github.com/suman2826/jenkins-shared-libs.git
+      remote: 'https://github.com/suman2826/jenkins-shared-libs.git'
 ])
 
 welcomeJob
