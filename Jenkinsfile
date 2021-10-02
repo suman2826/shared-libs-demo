@@ -1,5 +1,5 @@
 @Library('jenkins-shared-library')  _
-// welcomeJob
+welcomeJob
 
 // library identifier: 'jenkins-shared-library@main',
 //     retriever: modernSCM([
