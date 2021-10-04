@@ -6,25 +6,27 @@
 //       $class: 'GitSCMSource',
 //       remote: 'https://github.com/suman2826/jenkins-shared-libs.git'
 // ])
-jenkinsForJava()
+// jenkinsForJava()
 
-// pipeline {
-//        agent any
+pipeline {
+       agent any
       
-//        stages {
-//            stage("Tools initialization") {
-//                steps {
-                  
-//                    echo "suman"
-//                }
-//            }
+       stages {
+           stage("Tools initialization") {
+               steps {
+                     echo "${env.foo}"
+                   echo "suman"
+                     welcomeJob()
+                     echo "${env.foo}"
+               }
+           }
            
            
-//            stage("Running Testcase") {
-//               steps {
-//                    echo "completed"
-//                }
-//            }
+           stage("Running Testcase") {
+              steps {
+                   echo "completed"
+               }
+           }
            
-//        }
-//    }
+       }
+   }
