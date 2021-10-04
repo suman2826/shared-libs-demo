@@ -1,12 +1,12 @@
 @Library('jenkins-shared-library')  _
-welcomeJob()
+// welcomeJob()
 
 // library identifier: 'jenkins-shared-library@main',
 //     retriever: modernSCM([
 //       $class: 'GitSCMSource',
 //       remote: 'https://github.com/suman2826/jenkins-shared-libs.git'
 // ])
-jenkinsForJava "soum"
+jenkinsForJava 
 
 // pipeline {
 //        agent any
