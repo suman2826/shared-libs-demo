@@ -29,7 +29,7 @@ pipeline {
                         echo "here"
 
                        echo "${obj.firstJob()}"
-                      }
+//                       }
                }
            }
            
