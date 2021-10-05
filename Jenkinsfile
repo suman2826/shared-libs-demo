@@ -12,6 +12,7 @@ pipeline {
        agent any
        options {
         disableConcurrentBuilds()
+              skipDefaultCheckout()
     }
        parameters {
               choice (
