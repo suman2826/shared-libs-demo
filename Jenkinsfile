@@ -21,9 +21,7 @@ pipeline {
                      loadUtility()
 //                       script {
 //                         def obj = load "utilities.groovy"
-//                      //   def obj = load "vars/utilities.groovy"
-//                         echo "here"
-
+//                      
 //                        echo "${obj.firstJob()}"
 //                       }
                }
