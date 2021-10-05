@@ -18,7 +18,16 @@ pipeline {
                    echo "suman"
                      welcomeJob()
                      echo "${env.foo}"
-                     loadUtility()
+//                      loadUtility()
+                      echo "inside loadutility"
+                         checkout scm
+                        def rootDir = pwd()
+                        echo "${rootDir}"
+                        def obj = load "${rootDir}/utilities.groovy"
+                     //   def obj = load "vars/utilities.groovy"
+                        echo "here"
+
+                       echo "${obj.firstJob()}"
                }
            }
            
