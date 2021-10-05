@@ -10,6 +10,9 @@
 
 pipeline {
        agent any
+       options {
+              disableConcurrentBuilds() 
+       }
        parameters {
               choice (
                      name: "deploymentTrack",
