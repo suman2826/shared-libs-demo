@@ -20,11 +20,11 @@ pipeline {
                      echo "${env.foo}"
 //                      loadUtility()
                       echo "inside loadutility"
-                      step{
-                         checkout scm
-                        def rootDir = pwd()
-                        echo "${rootDir}"
-                        def obj = load "${rootDir}/utilities.groovy"
+//                       step{
+//                          checkout scm
+//                         def rootDir = pwd()
+//                         echo "${rootDir}"
+                        def obj = load "utilities.groovy"
                      //   def obj = load "vars/utilities.groovy"
                         echo "here"
 
