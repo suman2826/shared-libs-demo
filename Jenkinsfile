@@ -18,7 +18,7 @@ pipeline {
                    echo "suman"
                      welcomeJob()
                      echo "${env.foo}"
-                      loadUtility()
+                     loadUtility()
                }
            }
            
