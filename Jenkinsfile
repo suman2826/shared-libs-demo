@@ -10,7 +10,7 @@
 
 pipeline {
        agent any
-       parameter {
+       parameters {
               choice (
                      name: "deploymentTrack",
                      choices: ['cr','ar1','ar2', 'pr'],
