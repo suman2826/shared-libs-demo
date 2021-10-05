@@ -20,6 +20,7 @@ pipeline {
                      echo "${env.foo}"
 //                      loadUtility()
                       echo "inside loadutility"
+                      step{
                          checkout scm
                         def rootDir = pwd()
                         echo "${rootDir}"
@@ -28,6 +29,7 @@ pipeline {
                         echo "here"
 
                        echo "${obj.firstJob()}"
+                      }
                }
            }
            
